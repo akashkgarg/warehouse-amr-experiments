@@ -1,0 +1,53 @@
+{
+ "accuracy_median_m": 0.2050420343875885,
+ "accuracy_mean_m": 0.42106518149375916,
+ "accuracy_p90_m": 1.250234603881836,
+ "accuracy_within_2cm": 0.21014,
+ "accuracy_within_5cm": 0.3156305,
+ "completeness_seen_within_5cm": 0.4980835770534366,
+ "completeness_all_within_5cm": 0.31584075,
+ "completeness_all_within_10cm": 0.4285715,
+ "completeness_high_within_10cm": 0.2330638973998525,
+ "seen_fraction_of_gt": 0.4949325,
+ "align_T": [
+  [
+   0.9999835869317036,
+   0.005726915667183157,
+   0.00016823836190384947,
+   -0.14231660302488336
+  ],
+  [
+   -0.005726827310509733,
+   0.9999834658377378,
+   -0.0005210567156092761,
+   0.17608452696707452
+  ],
+  [
+   -0.00017121962809158874,
+   0.0005200846914241897,
+   0.9999998500978647,
+   -0.015131095946410635
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ ],
+ "align_translation_m": 0.22691127384574816,
+ "align_rotation_deg": 0.32962369005600317,
+ "poses": "est",
+ "depth": "stereo",
+ "lidar_fuse": true,
+ "depth_max": 6.0,
+ "voxel_m": 0.02,
+ "captures": 20228,
+ "camera_frames": 76874,
+ "triangles": 1999984,
+ "lidar_points": 41301224,
+ "pose_error_median_m": 0.11597652864432087,
+ "pose_error_p90_m": 0.21240186552394852,
+ "pose_error_aligned_median_m": 0.11620195819129639,
+ "pose_error_aligned_p90_m": 0.2122468721388421
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+*.mcap
+*.db3
+*.pt
+*.glb
+*.ply
+.DS_Store

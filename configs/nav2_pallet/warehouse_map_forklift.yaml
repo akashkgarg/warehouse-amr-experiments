@@ -1,0 +1,10 @@
+free_thresh: 0.25
+image: /home/builder/warehouse_amr/ros_pallet/warehouse_map_forklift.pgm
+mode: trinary
+negate: 0
+occupied_thresh: 0.65
+origin:
+- -28.800000381469726
+- -41.400001525878906
+- 0.0
+resolution: 0.1
