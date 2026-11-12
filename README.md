@@ -88,7 +88,7 @@ tools/warehouse_amr/ros_env.sh python3.12 tools/warehouse_amr/nav2_bridge.py pol
 ```
 
 The reconstruction pipeline commands are at the end of `docs/02_reconstruction/README.md`. The batch scripts
-under `scripts/` hardcode `/home/builder/...` paths from the original devspace, so edit those before you run them.
+under `scripts/` expect Isaac Sim at `$HOME/isaacsim` and data under `$HOME/warehouse_amr/recon/`.
 
 ## Path mapping from the original workspace
 

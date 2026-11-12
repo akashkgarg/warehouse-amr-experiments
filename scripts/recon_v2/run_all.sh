@@ -1,7 +1,7 @@
 #!/bin/bash
 # v2 reconstructions + ablations, launched once stereo depth is complete.
-cd /home/builder/isaacsim
-V2=/home/builder/warehouse_amr/recon/v2
+cd $HOME/isaacsim
+V2=$HOME/warehouse_amr/recon/v2
 D="$V2/data_s21 $V2/data_s22 $V2/data_s23 $V2/data_s24 $V2/data_s25 $V2/data_s26 $V2/data_s27"
 PY=~/.venvs/recon/bin/python
 R=tools/warehouse_amr/recon.py

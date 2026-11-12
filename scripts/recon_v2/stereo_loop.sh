@@ -1,7 +1,7 @@
 #!/bin/bash
 # Stereo depth for every v2 pair, re-scanning for new captures until the collectors exit.
-cd /home/builder/isaacsim
-DIRS=$(ls -d /home/builder/warehouse_amr/recon/v2/data_s*)
+cd $HOME/isaacsim
+DIRS=$(ls -d $HOME/warehouse_amr/recon/v2/data_s*)
 while true; do
   running=$(pgrep -f collect_recon.py | wc -l)
   pids=()

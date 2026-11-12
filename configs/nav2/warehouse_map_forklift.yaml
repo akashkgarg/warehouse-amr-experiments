@@ -1,5 +1,5 @@
 free_thresh: 0.25
-image: /home/builder/warehouse_amr/ros_nav2/warehouse_map_forklift.pgm
+image: warehouse_map_forklift.pgm
 mode: trinary
 negate: 0
 occupied_thresh: 0.65

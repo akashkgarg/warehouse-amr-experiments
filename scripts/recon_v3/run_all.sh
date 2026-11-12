@@ -1,7 +1,7 @@
 #!/bin/bash
 # v3 reconstructions + ablations, once stereo depth and the SLAM caches exist.
-cd /home/builder/isaacsim
-V=/home/builder/warehouse_amr/recon/v3
+cd $HOME/isaacsim
+V=$HOME/warehouse_amr/recon/v3
 D="$V/data_s31 $V/data_s32 $V/data_s33 $V/data_s34 $V/data_s35 $V/data_s36 $V/data_s37"
 PY=~/.venvs/recon/bin/python
 R=tools/warehouse_amr/recon.py

@@ -21,7 +21,7 @@ import open3d as o3d
 import open3d.core as o3c
 from matplotlib.collections import LineCollection
 
-sys.path.insert(0, "/home/builder/isaacsim/tools/warehouse_amr")
+sys.path.insert(0, os.path.expanduser("~/isaacsim/tools/warehouse_amr"))
 sys.path.insert(0, os.path.expanduser("~/warehouse_amr/recon/report"))
 import recon  # noqa: E402
 import slam  # noqa: E402

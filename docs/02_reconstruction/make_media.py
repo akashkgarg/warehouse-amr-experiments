@@ -21,7 +21,7 @@ import open3d as o3d
 import open3d.core as o3c
 import open3d.visualization.rendering as rendering
 
-sys.path.insert(0, "/home/builder/isaacsim/tools/warehouse_amr")
+sys.path.insert(0, os.path.expanduser("~/isaacsim/tools/warehouse_amr"))
 from recon_views import views  # noqa: E402
 
 R = os.path.expanduser("~/warehouse_amr/recon")

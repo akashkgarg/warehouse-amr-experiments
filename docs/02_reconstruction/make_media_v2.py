@@ -20,7 +20,7 @@ import numpy as np
 import open3d as o3d
 import open3d.core as o3c
 
-sys.path.insert(0, "/home/builder/isaacsim/tools/warehouse_amr")
+sys.path.insert(0, os.path.expanduser("~/isaacsim/tools/warehouse_amr"))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import slam  # noqa: E402
 from make_media import crop_box, jpg, label, load_mesh, renderer  # noqa: E402

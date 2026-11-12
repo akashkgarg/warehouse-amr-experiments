@@ -1,7 +1,7 @@
 #!/bin/bash
 # Stereo depth for every v3 pair: left-right checked (_sl) and plain (_s) from one pass, 2 processes per GPU.
-cd /home/builder/isaacsim
-DIRS=$(ls -d /home/builder/warehouse_amr/recon/v3/data_s*)
+cd $HOME/isaacsim
+DIRS=$(ls -d $HOME/warehouse_amr/recon/v3/data_s*)
 k=0
 for g in 0 2 3 4 5 6 7; do
   for p in 0 1; do
